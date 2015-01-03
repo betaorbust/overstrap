@@ -1,0 +1,25 @@
+{
+  "name": "Overstrap",
+  "version": "1.0.0",
+  "description": "Example of maintainable bootstrap",
+  "dependencies": {
+    "less": "~1.7.0",
+    "grunt": "~0.4.4",
+    "grunt-cli": "~0.1.13",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-less": "~1.0.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "jit-grunt": "~0.9.0"
+  },
+  "engines": {
+    "node": ">= 0.10.2"
+  },
+  "scripts": {
+    "setup": "rm -rf node_modules/; npm install;"
+  },
+  "engineStrict": true,
+  "private": true,
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
